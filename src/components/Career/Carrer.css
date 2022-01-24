@@ -1,0 +1,122 @@
+.Career_co {
+  max-width: 100% !important;
+}
+
+.faq-list-box>.faq-list>.faq-title>h3 {
+  font-size: 20px;
+}
+
+.faq-list-box {
+  background-color: #fff;
+  text-align: left;
+  /* display: inline-block; */
+
+
+}
+
+.faq-list-box>.faq-list>.faq-title {
+  position: relative;
+  /* max-width: 1190px; */
+  margin: 0 auto;
+  padding: 4px 14px 4px 0;
+  border-top: 1px solid #C8C8C8;
+
+}
+
+.faq-list-box>.faq-list:last-child {
+  border-bottom: 1px solid #C8C8C8;
+
+
+}
+
+/* 
+.jione {
+  position: relative;
+  margin-left: 10px;
+} */
+
+.faq-list-box>.faq-list>.faq-title .faq_icon {
+  transition: all 0.5s;
+  transform: translateY(-50%)
+}
+
+.faq-list-box>.faq-list.show1>.faq-title .faq_icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faq-list-box>.faq-list>.faq-title>h3 {
+  /* font-size: 1.2rem; */
+  position: relative;
+}
+
+.faq-list-box>.faq-list>.faq-title>h3>.faq-icon__q {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: -10px;
+  left: -60px;
+  background-color: #bbb;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+    /* #ea6056 */
+}
+
+.faq-list-box>.faq-list.show1>.faq-title>h3>.faq-icon__q {
+
+  background-color: #ea6056;
+}
+
+
+.faq-list-box>.faq-list {
+
+  cursor: pointer;
+}
+
+.faq-list-box>.faq-list>.faq-content {
+  transition: all 0.4s ease;
+  /* -webkit-transition: all 0.4s ease; */
+  max-height: 0px;
+  overflow: hidden;
+  /* background-color: #F6F6F6; */
+
+}
+
+
+.faq-list-box>.faq-list.show1>.faq-content {
+  /* max-height: 800px; */
+  max-height: 1254px;
+}
+
+
+.faq-list-box>.faq-list>.faq-content>p {
+  /* color: #333; */
+  color: #252525;
+  position: relative;
+  max-width: 1190px;
+  margin: 0 auto;
+  /* padding: 0px 14px; */
+  padding: 40px 14px;
+}
+
+.faq-list-box>.faq-list>.faq-content>p>.faq-icon__a {
+  position: absolute;
+  top: -10px;
+  left: -60px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  color: #000;
+  /* #ea6056 */
+}
+
+/* .faq-title > h3 > span > b{
+  
+} */

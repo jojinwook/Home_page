@@ -1,0 +1,46 @@
+/* .fade-enter{
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.fade-enter-active {
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.fade-exit-active {
+  transition: opacity 1s;
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+
+.fade-exit-active {
+  transition: opacity 1s;
+} */
+
+
+
+.MuiDrawer-paper {
+  height: 100% !important;
+}
+
+.MuiPaper-elevation4 {
+  /* box-shadow: none !important; */
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-slider button {
+  display: none !important;
+}
+
+
+/* img {
+  max-width: 100%;
+} */
